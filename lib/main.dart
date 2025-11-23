@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:rivan/currency_converter_material_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -8,21 +9,17 @@ void main() {
 
 //1. Material Design
 //2. Cupertino Design 
-//Halo teman
+
 class MyApp extends StatelessWidget{
   const MyApp({super.key});
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-
+    return const MaterialApp(
+      home: CurrencyConverterMaterialPage(),
     );
   }
 }
-//Bakso bakar enak banget gak sih, setuju gak
 
-//Misalkan terjadi perubahan, maka apa yang terjadi
-
-//Bakal ada file ke tiga
 
 
 
