@@ -20,6 +20,8 @@ class MyApp extends StatelessWidget{
 }
 //Bakso bakar enak banget gak sih, setuju gak
 
+//Misalkan terjadi perubahan, maka apa yang terjadi
+
 
 
 
